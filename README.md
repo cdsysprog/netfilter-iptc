@@ -123,7 +123,7 @@ user space
 //!
 //! Warning:
 //! - addresses are stored in network byte order
-//! - hosts are stored in host byte order
+//! - ports are stored in host byte order
 ```
 
 #### iptc types
