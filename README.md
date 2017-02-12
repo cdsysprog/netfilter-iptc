@@ -97,7 +97,7 @@ nf_unregister_hook(&hook_options);
 #### socket buffer manipulation
 ```c
 t_ip_header  * ip_header  = ip_hdr(skb);
-t_udp_header * udp_header = udp_hdr(obj_buffer);
+t_udp_header * udp_header = udp_hdr(skb);
 ```
 
 
